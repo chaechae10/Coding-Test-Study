@@ -11,3 +11,15 @@
 
 
 ## 공간복잡도 판단하기 
+
+## 점근 표기법 
+> 어떤 함수의 증가 양상을 다른 함수와 비교로 표현하는 수론과 해석학의 방법이다. 
+
+
+```python
+def is_number_exist(number, array):
+    for i in array:
+        if number == i:
+            return True
+    return False
+```

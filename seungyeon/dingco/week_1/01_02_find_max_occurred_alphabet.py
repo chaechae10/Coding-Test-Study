@@ -1,6 +1,6 @@
 def find_max_occurred_alphabet(string):
     array = [0] * 26
-    # 이 부분을 채워보세요!
+
     for i in string:
         if i.isalpha():
             num = ord(i) - ord("a")
